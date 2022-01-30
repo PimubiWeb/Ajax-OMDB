@@ -18,7 +18,6 @@ $(document).ready(function(){
                 console.log(data);  
 
                 result = `
-                
                 <img style="float:left" class="img-thumnail" src="${data.Poster}">
                 <h2>Titulo: ${data.Title}</h2>
                 <h2>Fecha: ${data.Released}</h2>
